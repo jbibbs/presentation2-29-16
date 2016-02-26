@@ -1,5 +1,17 @@
-.vAlign {
+.reveal form {
+	margin-top: 60px;
+}
+
+form input[type=radio]{
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+form.twoItemSpacing input[type=radio] {
+	margin-right: 80px;
+}
+
+.reveal h1 {
+	font-size: 1.5em;
 }
