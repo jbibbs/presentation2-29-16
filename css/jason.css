@@ -9,9 +9,18 @@ form input[type=radio]{
 }
 
 form.twoItemSpacing input[type=radio] {
-	margin-right: 80px;
+	margin-right: 50px;
 }
 
-.reveal h1 {
-	font-size: 1.5em;
+form.optionList p {
+	text-align: left;
+}
+
+.reveal h1.smallFont {
+	font-size: 1.0em;
+}
+
+.reveal h1.title {
+	border-bottom: #222 1px solid;
+	padding-bottom: 7px;
 }
